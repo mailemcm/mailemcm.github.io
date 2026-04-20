@@ -9,12 +9,12 @@
         body {
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
-            background: #f8fafc;
-            color: #1e293b;
+            background: #f1f5f1;
+            color: #1f2937;
         }
 
         header {
-            background: linear-gradient(135deg, #0ea5e9, #0369a1);
+            background: linear-gradient(135deg, #166534, #14532d);
             color: white;
             padding: 70px 20px;
             text-align: center;
@@ -23,19 +23,29 @@
         header h1 {
             margin: 0;
             font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 10px;
+            opacity: 0.9;
         }
 
         nav {
-            background: #e0f2fe;
+            background: #dcfce7;
             padding: 12px;
             text-align: center;
         }
 
         nav a {
-            color: #0369a1;
+            color: #14532d;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #166534;
         }
 
         section {
@@ -45,7 +55,7 @@
         }
 
         h2 {
-            color: #0369a1;
+            color: #166534;
         }
 
         .card {
@@ -54,18 +64,24 @@
             margin: 15px 0;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-left: 5px solid #166534;
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            background: #0369a1;
+            background: #14532d;
             color: white;
         }
 
         .accent {
-            color: #0ea5e9;
+            color: #166534;
             font-weight: bold;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.95;
         }
     </style>
 </head>
@@ -74,8 +90,10 @@
 
 <header>
     <h1>Maile McMahon</h1>
-    <p>From <span class="accent">Civil Engineering</span> to <span class="accent">Business Administration</span></p>
-    <p>Aspiring Project & Construction Management Professional</p>
+    <p class="subtitle">
+        From <span class="accent">Civil Engineering</span> to <span class="accent">Business Administration</span>
+    </p>
+    <p>Aspiring Project & Construction Management Professional in Hawaiʻi</p>
 </header>
 
 <nav>
@@ -89,9 +107,14 @@
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I began my academic journey in civil engineering, where I developed strong problem-solving
-        and planning skills. I am now transitioning into business administration to pursue project
-        and construction management.
+        I began my academic journey in civil engineering, where I built a foundation in
+        problem-solving, structural thinking, and project planning. Living and studying in Hawaiʻi
+        has strengthened my interest in how infrastructure connects communities.
+    </p>
+
+    <p>
+        I am now pursuing business administration to develop leadership and management skills,
+        with the goal of entering project or construction management.
     </p>
 </section>
 
@@ -100,17 +123,17 @@
 
     <div class="card">
         <h3>Analytical & Technical</h3>
-        <p>Data analysis, planning, attention to detail</p>
+        <p>Problem-solving, planning, attention to detail, data analysis</p>
     </div>
 
     <div class="card">
-        <h3>Business & Management</h3>
-        <p>Communication, teamwork, organization</p>
+        <h3>Business & Leadership</h3>
+        <p>Team coordination, communication, organization, leadership experience</p>
     </div>
 
     <div class="card">
         <h3>Tools</h3>
-        <p>Microsoft Excel, PowerPoint</p>
+        <p>Microsoft Excel, PowerPoint (add AutoCAD or others later)</p>
     </div>
 </section>
 
@@ -131,8 +154,9 @@
 <section id="goals">
     <h2>Career Goals</h2>
     <p>
-        Interested in project and construction management, combining technical knowledge
-        with business strategy.
+        I am pursuing opportunities in <span class="accent">project management</span> and
+        <span class="accent">construction management</span>, combining technical engineering
+        knowledge with business and leadership skills to support successful project delivery in Hawaiʻi and beyond.
     </p>
 </section>
 
@@ -143,7 +167,7 @@
 </section>
 
 <footer>
-    <p>© 2026 Maile McMahon</p>
+    <p>© 2026 Maile McMahon | University of Hawaiʻi at Mānoa</p>
 </footer>
 
 </body>
